@@ -23,7 +23,7 @@ header>h1{
     padding-top: 30px;
     text-align: center;
     font-variant: small-caps;
-    font-size: 70px;
+    font-size: 10vw;
     font-family: "Passion One", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -33,7 +33,6 @@ header>h1{
 header>p{
     padding-bottom: 20px;
     font-family: verdana regular;
-    font-size: 15px;
     text-align: center;
     color: white;
 }
@@ -52,7 +51,7 @@ header>p>a:hover{
 }
 
 section{
-    font-size: 25px;
+    font-size: 30px;
     font-family: "sriracha", normal;
     padding-bottom: 10vh;
     padding-top: 10vh;
@@ -71,7 +70,8 @@ section.imagem{
 }
 
 section.imagem>p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.308);
 }
 
